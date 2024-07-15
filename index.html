@@ -1,215 +1,187 @@
-<!DOCTYPE html>
 
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!DOCTYPE html>
+<html>
+  <head>
     <title>Low Horse Records</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://rawgit.com/almeida-matheus/fullPageScrollPureJS/master/app/assets/stylesheet/full-page-scroll.css"
+    />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="styles.css"
+    />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <style type="text/css">
+      .section1 {
+        background-color: #7dbcd4;
+      }
+
+      .section2 {
+        background-color: #98c19f;
+      }
+
+      .section3 {
+        background-color: #a199e2;
+      }
+
+      .section4 {
+        background-color: #cc938e;
+      }
+
+      .section5 {
+        background-color: #d2c598;
+      }
+
+      section div {
+        font-family: "Open Sans";
+        font-style: normal;
+        text-align: center;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+
+      span {
+        font-size: 4em;
+        font-style: normal;
+        color: #fff;
+      }
+
+      .button {
+        background-color: #f2cf66;
+        border-bottom: 5px solid #d1b358;
+        text-shadow: 0px -2px #d1b358;
+        padding: 10px 40px;
+        border-radius: 10px;
+        font-size: 25px;
+        color: #fff;
+        text-decoration: none;
+      }
+    </style>
+
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Low Horse Records</title>
+ 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
     <link rel="icon" href="images/favicon.png" type="image/png">
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://rawgit.com/almeida-matheus/fullPageScrollPureJS/master/app/assets/stylesheet/full-page-scroll.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="main.js"></script>
+  </head>
+  <body>
 
-    <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
-</head>
-<body>
+<!-- Fixed nav -->
     <nav>
         <div class="nav-container">
             <div class="logo">
-                <img src="images/logo.jpg" alt="Your Logo">
+                <a href="http://lowhorse.github.io"><img src="images/logo.jpg" alt="Your Logo"></a>
             </div>
             <ul class="nav-links">
                 <li><a href="#countdown">Countdown</a></li>
                 <li><a href="#songs">Songs</a></li>
+                <li><a href="#playlist">Playlist</a></li>
                 <li><a href="#top">Back to Top</a></li>
+
+
             </ul>
         </div>
     </nav>
-    <div class="section full-height" id="top" style="background-image: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.03)), url('images/bg-2.png');">
-        <div class="section-title-wrap">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 text-center parallax-fade-top">
-                        <p style="width: 25%; size: 15em; top:0;">you're in the threshold</p><br><br><br><br><br>
-                        <h1>between<br>two rooms</h1>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-    <div class="section full-height" id="section1" class="section" style="background-color: #1f2029;">
-        <div class="section-title-wrap">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 text-center parallax-fade-top">
-                        <h1>You’ve got a shoelace</h1>
-                        <p>Hanging over the threshold of the door<br>Neither truly in one room nor other<br>Inactive, yet still occupying the space of</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section>
-    <div class="section full-height" id="section1" class="section" style="background-color: #1f2029; background-image: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.03)), url('images/bg-4.png');">
-        <div class="section-title-wrap">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 text-center parallax-fade-top">
-                        <h1>Choice</h1>
-                <br>
-                        <h2>Real choice</h2><p>
-                          <br><br><br>Not of your breakfast<br>Or car<br>Or plans for Saturday night<br>But choice to make a line in the sand<br>Step forward<br>And leave choice behind</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-    <div class="section full-height" style="background-color: #1f2029;background-image: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.03)), url('images/bg-def.png')">
-        <div class="section-title-wrap">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 text-center parallax-fade-top" style="text-align: right;">
-                        <h2>Absence of choice</h2>
-                        <p>Is a prison<br>But is abundance of choice<br>Just an infinite hall of doorways<br>For all that could’ve been<br>To drag what is<br>Far<br>Far<br>Away.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <div class="section full-height">
-        <div class="section-title-wrap">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 text-top parallax-fade-top" style="text-align:top;">
-                        <h1>Certainty is the</h1>
-                        <p>First moments<br>After the last breath</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+<!-- Div container -->
 
-    <div class="section full-height" style="background-color: #1f2029;background-image: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.03)), url('images/bg-def.png')">
-        <div class="section-title-wrap">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 text-center parallax-fade-top">
-                        <h2>The quiet death</h2>
-                        <p>Of a bookmark</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <div id="main" class="scroll-container">
+      
+<!-- SLIDE ONE -->
 
-    <div class="section full-height" style="background-color: #1f2029;">
-        <div class="section-title-wrap">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 text-center parallax-fade-top" style="text-align: right;">
-                        <h1>How cruel it is</h1>
-                        <p>For the blistered hand<br>To hear that sovereign order<br>Of the mind to<br>Tap out</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+      <section class="section1" id="top" style="background-color: #1f2029; background-image: linear-gradient(rgba(255,255,255,0.01), rgba(255,255,255,0.01)), url('images/bg-2.png'); background-repeat: no-repeat; background-size: cover;">
+          <span style="max-width:50%; color: #8e8d9a;">
+            <p style="padding-top:3em;" class="space-sm";>you're in the threshold</p>
+            <br>
+            <p style="color:#fff;" class="space-big">of a doorway</p>
+          </span>
 
-    <div class="section full-height" style="background-color: #1f2029; background-image: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.1)), url('images/bg-def.png')">
-        <div class="section-title-wrap">
-            <div class="container" style = "color: #010101;">
-                <div class="row">
-                    <div class="col-12 text-center parallax-fade-top">
-                        <p>To send its blood, and nerves<br>With its electric iron<br>To say I’ve done all I can here</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <div class="section full-height" style="background-color: #1f2029;background-image: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.03)), url('images/bg-def.png')">
-        <div class="section-title-wrap">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 text-center parallax-fade-top" style="text-align: right;">
-                        <h2>But to leave open the door!</h2>
-                        <p>To linger, unassailed<br>From any point or privilege<br>Atop any mountain at will<br>But atop none at all<br>You could be<br>Untouchable</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <div class="section full-height" style="background-color: #1f2029;">
-        <div class="section-title-wrap">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 text-center parallax-fade-top">
-                        <p>And if so<br>Is that great prize<br>Of the cowards<br>God saying<br>“You were never wrong”<br>“You were<br>Never anything at all”</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+      </section>
 
-    <div class="section full-height" style="background-color: #1f2029;background-image: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.03)), url('images/bg-def.png')">
-        <div class="section-title-wrap">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 text-center parallax-fade-top" style="text-align: right;">
-                        <h1>You’ve never thought</h1>
-                        <p>Free will<br>Would be free<br>You don’t know<br>Which direction<br>To bow<br>Which death<br>Bring life<br>Which wicked hearts<br>Are yours<br>In some other life<br>Or just<br>wicked hearts</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+<!-- SLIDE TWO -->
 
-    <div class="section full-height" style="background-color: #1f2029;">
-        <div class="section-title-wrap">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 text-center parallax-fade-top">
-                        <h2>But you do know</h2>
-                        <p>One thing</p>
-                    </div>
-                </div>
-            </div>
+      <section class="section2" style="background-color: #1f2029; filter: brightness(86%); background-repeat: no-repeat; background-size: cover;background-image: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.03)), url('images/bg-fat.png');">
+        <div>
+          <span class="space-big"> with a shoelace hanging over </span>
+          <br>
+          <span style="color: #cac3d4;" class="space-big">from one room to another </span>
         </div>
-    </div>
+      </section>
 
-    <div class="section full-height" style="background-image: url('images/bg-3.png'); max-height: 100%; width: 100%; background-repeat: no-repeat;">
-        <div class="section-title-wrap">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 text-center parallax-fade-top">
-                        <p style="width: 25%;">you've got to</p>
-                        <h1>tie<br>that shoe</h1>
-                    </div>
-                </div>
-            </div>
+<!-- SLIDE THREE -->
+
+
+
+      <section class="section3" style="background-color: #1f2029; background-repeat: no-repeat; background-size: cover; background-image: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0.03)), url('images/bg-gator.png'); text-align:left;">
+        <div>
+          <span class="space-big" style="max-width: 50%; margin-right: 55%; color:#fff;"> and </span>
+          <br>
+          <span class="space-big" style="max-width: 50%; margin-right: 55%; color:#cac3d4;"> all that you know </span>
+          <br>
         </div>
-    </div>
+      </section>
 
-    <div class="section full-height z-bigger" style="background-image: url('images/bg-1.jpg'); max-height: 100%; background-repeat: no-repeat; background-size: 100%;" id="songs">
+
+<!-- SLIDE FOUR -->      
+      <section class="section4" style="background-color: #1f2029; background-repeat: no-repeat; background-size: cover; background-image: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0.03)), url('images/bg-end.png');">
+        <div>
+          <span class="space-big" style="margin-right: 75%; color:#fff; display:block;"> is you've got to </span>
+          <br><br>
+          <span class="space-big" style="margin-right: 75%; color:#0a0c37;"> tie</span><br>
+          <span class="space-big" style="margin-right: 75%; color:#cac3d4;">  that shoe </span>
+        </div>
+      </section>
+
+<!-- SLIDE FIVE -->
+      <section class="section5" style="background-color: #1f2029; background-image: linear-gradient(rgba(255,255,255,0.01), rgba(255,255,255,0.01)), url('images/bg-1.jpg'); background-repeat: no-repeat; background-size: cover;">
+          <div class="section full-height z-bigger" style="background-image: url('images/bg-1.jpg'); max-height: 100%; background-repeat: no-repeat; background-size: 100%;" id="songs">
         <ul class="case-study-wrapper" style="top:50%; bottom: auto; padding: 2">
-    <li class="case-study-name">                            	
+    <li class="case-study-name">                              
       <a href="#" class="hover-target">Sad, Sad Song</a>
     </li>
-    <li class="case-study-name">                                         	
+    <li class="case-study-name">                                          
       <a href="#" class="hover-target">Mile Long Cigarette</a>
     </li>
-    <li class="case-study-name">                                        	
+    <li class="case-study-name">                                          
       <a href="#" class="hover-target">The Winner</a>
     </li>
-    <li class="case-study-name">                                         	
+    <li class="case-study-name">                                          
       <a href="#" class="hover-target">Slow Town, Fast One</a>
     </li>
     <li class="case-study-name">
@@ -217,40 +189,56 @@
     </li>
   </ul>
 </div>
+      </section>
 
-<div class="section padding-top-bottom over-hide background-dark z-bigger-2">
+<!-- SLIDE SIX -->
+      <section class="section6" id="playlist" style="background-color: #1f2029; background-image: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.03)), url('images/bg-3.png');">
+        <div>
+          <span style="padding: 25% 25% auto auto;"> <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2RhEgiUzSCDRiIDjL8um9e?utm_source=generator&theme=0" width="35%" height="160" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe> </span>
+        </div>
+      </section>
+<!-- SLIDE SEVEN -->
+<section class="section7">
+<div class="section full-height" id="section1" class="section" style="background-color: #1f2029; background-image: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.03)), url('images/bg-def.png');">
+  <div class="section-title-wrap" style="text-align: center;">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-md-7 text-center">
         <a href="#" class="hover-target">
-          <div class="project-link-wrap" id="countdown">
-            <div id="timer"></div>
+            <div class="project-link-wrap" id="countdown">
             <p>countdown</p>
+            <div id="timer"></div>
+            </div>
+          <div class="project-link-wrap" id="anacoco">
+            <br>
+            <br>
+          <p style="padding-top:3em; text-decoration-style: underline;">anacoco</p>
+            </div>
           </div>
         </a>
       </div>
-    </div>	
-  </div>			
+    </div>  
+  </div>   
+  </div>
+  </div>         
 </div>
+      </section>
 
-<!-- Scroll back to top
-================================================== -->
+<!-- ALL SECTIONS CLOSED -->
 
-<div class="scroll-to-top hover-target"></div>
-
-<!-- Page cursor
-================================================== -->
-
-<div class='cursor' id="cursor"></div>
-<div class='cursor2' id="cursor2"></div>
-<div class='cursor3' id="cursor3"></div>
-
-<!-- Link to page
-================================================== -->
-
-<a href="https://themeforest.net/user/ig_design/portfolio"      class="link-to-portfolio hover-target" target=”_blank”></a>
+    </div>
+    </div>
+    <script src="assets/full-page-scroll.js"></script>
+    <script type="text/javascript">
+      new fullScroll({
+        mainElement: "main",
+        displayDots: true,
+        dotsPosition: "right",
+        animateTime: 0.7,
+        animateFunction: "ease",
+      });
+    </script>
 <script>
-        // Countdown Timer Script
         const countdown = () => {
             const countDate = new Date("August 2, 2024 00:00:00").getTime();
             const now = new Date().getTime();
@@ -275,5 +263,5 @@
 
         setInterval(countdown, 1000);
     </script>
-</body>
+  </body>
 </html>
