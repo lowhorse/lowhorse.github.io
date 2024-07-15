@@ -81,7 +81,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
-    <link rel="icon" href="images/favicon.png" type="image/png">
+    <link rel="icon" href="images/favicon-32x32.png" type="image/png">
 
     <link
       rel="stylesheet"
@@ -106,6 +106,7 @@
             <div class="logo">
                 <a href="http://lowhorse.github.io"><img src="images/logo.jpg" alt="Your Logo"></a>
             </div>
+            <div class="menu-toggle" onclick="toggleMenu()">☰</div>
             <ul class="nav-links">
                 <li><a href="#countdown">Countdown</a></li>
                 <li><a href="#songs">Songs</a></li>
@@ -263,5 +264,12 @@
 
         setInterval(countdown, 1000);
     </script>
+
+    <script>
+    function toggleMenu() {
+        const navLinks = document.querySelector('.nav-links');
+        navLinks.classList.toggle('active');
+    }
+</script>
   </body>
 </html>
